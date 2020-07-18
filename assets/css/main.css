@@ -1987,14 +1987,14 @@
 		}
 
 		.feature-grid .feature {
-			display: inline-block;
+			/*display: inline-block; */
 			float: left;
 			margin-bottom: 3em;
 			width: 50%;
 		}
 
 			.feature-grid .feature .content {
-				width: 60%;
+				width: 55%;
 			}
 
 			.feature-grid .feature .image {
@@ -2737,7 +2737,7 @@
 			background-attachment: fixed;
 			background-image: url("images/overlay.png"), url("../../images/IMG_7270.JPG");
 			background-position: center center;
-			background-size: cover;
+			background-size: contain;
 		}
 
 			.wrapper.style3 header.major {
