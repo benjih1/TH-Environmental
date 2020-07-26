@@ -3097,6 +3097,11 @@ background-size: cover;
 		background-image: url("images/overlay.png"), url("../../images/IMG_7270.JPG");
 		background-position: center top;
 		background-size: cover;
+		
+			-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 		line-height: 1.75;
 		text-align: center;
 	}
