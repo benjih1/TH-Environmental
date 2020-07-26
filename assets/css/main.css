@@ -2736,8 +2736,12 @@
 		.wrapper.style3 {
 			background-attachment: fixed;
 			background-image: url("images/overlay.png"), url("../../images/IMG_7270.JPG");
-			background-position: center center;
-			background-size: contain;
+			background-position: center;
+			background-size: cover;
+			-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 		}
 
 			.wrapper.style3 header.major {
