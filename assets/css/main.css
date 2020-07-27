@@ -2927,11 +2927,11 @@ background-size: cover;
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
-		height: 100%;
+		height: 20%;
 		left: 0;
 		position: absolute;
 		top: 0;
-		width: 100%;
+		width: 20%;
 		display: none;
 	}
 
@@ -3089,7 +3089,7 @@ background-size: cover;
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 16em 0 5em 0;
 		
 		background-image: url("images/overlay.png"), url("../../images/IMG_7270.JPG");
 		background-position: center top;
@@ -3125,7 +3125,7 @@ background-size: cover;
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 14em 0 11em 0;
+				padding: 14em 0 5em 0;
 			}
 
 				#banner h2 {
