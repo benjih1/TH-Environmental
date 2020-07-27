@@ -1648,10 +1648,7 @@
 
 		}
 
-	a {
-		text-decoration: underline;
-		color: #f32853;
-	}
+	
 
 		a:hover {
 			text-decoration: none;
@@ -1994,7 +1991,7 @@
 		}
 
 			.feature-grid .feature .content {
-				width: 55%;
+				width: 50%;
 			}
 
 			.feature-grid .feature .image {
@@ -2734,7 +2731,7 @@
 		}
 
 		.wrapper.style3 {
-			background-attachment: fixed;
+			
 			background-image: url("images/overlay.png"), url("../../images/IMG_7270.JPG");
 			background-position: center;
 			background-size: contain;
