@@ -21,7 +21,10 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
-
+ 
+	#headimg {
+		height: inherit;
+	}
 	body {
 		line-height: 1;
 	}
@@ -2845,6 +2848,22 @@ background-size: cover;
 						text-decoration: none;
 					}
 
+					#header .logo {
+						
+						display: inline-block;
+						height: 3em;
+						left: 0;
+						line-height: inherit;
+						margin: 0;
+						padding: 0;
+						position: absolute;
+						top: 0;
+						
+						font-size: 1.6em;
+						text-transform: none;
+						font-weight: normal;
+						padding: 0;
+					}
 						#header nav ul li a:hover {
 							color: #484848;
 						}
